@@ -3,16 +3,44 @@
 # Practice of a computer programmer
 # Assignment 2
 # tabdulra@student.fitchburgstate.edu
-# This program does ......
+# This program generates some arithmetic examples
+# It also finds perfect numbers, abundant numbers and deficient 
+# numbers
 # known bugs: None
 
 # print numbers
-def print_nice_numbers():
+def print_number_sequence_1():
     prev = ""
-    for x, val in enumerate(range(1, 10)):
+    for val in range(1, 10):
         prev += str(val)
         current_value = int(prev)
         print(str(current_value) + " * 8 + " + str(val) + " = " + str(current_value * 8 + val)) 
+    print()
+
+def print_number_sequence_2():
+    prev = ""
+    for val in range(1,10):
+        prev += str(val)
+        current_value = int(prev)
+        print(str(current_value) + " * 9 + " + str(val+1) + " = " + str(current_value * 9 + val+1)) 
+    print()
+
+def print_number_sequence_3():
+    base_number = 10
+    prev = ""
+    for val in reversed(range(0, 8)):
+        base_number -= 1
+        prev += str(base_number)
+        print( prev + " * 9 + " + str(prev) + " = " + str(int(prev) * 9 + val)) 
+    print()
+
+def print_number_sequence_4():
+    prev = ""
+    for val in range(1,10):
+        prev += str(1)
+        print(prev + " * " + prev + " = " + str(int(prev) * int(prev)))
+    print()
+
 
 # helper function to check if a number is a perfect number
 # source https://www.daniweb.com/software-development/python/threads/261804/printing-perfect-numbers
@@ -65,5 +93,9 @@ def finding_perfect_and_abundant_and_deficient_numbers():
 
 # Entry point of the program
 if __name__ == "__main__":
-    print_nice_numbers()
+    print("The following is a nice arithmetic examples")
+    print_number_sequence_1()
+    print_number_sequence_2()
+    print_number_sequence_3()
+    print_number_sequence_4()
     finding_perfect_and_abundant_and_deficient_numbers()
