@@ -52,21 +52,21 @@ def draw_postal_code():
     running_sum = 0
     
     # Make an instance of turtle
-    turtle = turtle.Turtle()
+    turtleInstance = turtle.Turtle()
     
     # Set the position of where to draw    
     screen = turtle.Screen() 
     screen.setworldcoordinates(0-border,0-border,40*numbars+border,maxheight+border)
     
     # draw the initial frame bar
-    drawBar(turtle, 100)
+    drawBar(turtleInstance, 100)
     
     for x in user_input:
         try:
             value_of_x = int(x)
             running_sum += value_of_x
             for i in dictionary_of_postal_codes[value_of_x]:
-                drawBar(turtle,i)
+                drawBar(turtleInstance,i)
         except:
             pass
     
@@ -77,13 +77,13 @@ def draw_postal_code():
     if remainder != 0:
         #print("Check digit is " + str(10 - remainder))
         for x in dictionary_of_postal_codes[10 - remainder]:
-            drawBar(turtle, x)
+            drawBar(turtleInstance, x)
         
         
     # draw the last frame bar
-    drawBar(tess, 100)
+    drawBar(turtleInstance, 100)
     
-    wn.exitonclick()
+    screen.exitonclick()
 
 # Entry point of the program
 if __name__ == "__main__":
