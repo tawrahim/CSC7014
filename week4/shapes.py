@@ -9,15 +9,16 @@
 
 import turtle
 
-def main():
-    turtle.setup();
-    triangle(100)
-    turtle.done();
-
 def triangle(size):
-    pass
+    for _ in range(3):
+        turtle.foward(size)
+        turtle.size(120)
 
-
+def main():
+    turtle.setup()
+    triangle(100)
+    turtle.done()
+    
 main()
 
 
