@@ -10,15 +10,36 @@
 import turtle
 
 def triangle(size):
-    for _ in range(3):
-        turtle.foward(size)
-        turtle.size(120)
+    for _ in range (3):
+        turtle.forward(size)
+        turtle. left(120)
 
+def triangles():
+    for size in range(10, 71, 20):
+        triangle(size)
+
+def square(size):
+    for _ in range (4):
+        turtle.forward(size)
+        turtle.left(120)
+        
+def squares():
+    for size in range(10, 71, 20):
+        square(size)
+
+def polygon(size, sides):
+    pass
+    
 def main():
     turtle.setup()
-    triangle(100)
+    turtle.color("red")
+    triangles()
+    turtle.color("green")
+    #square(100)
+    turtle.color("blue")
+    polygon(100, 7)
     turtle.done()
-    
+
 main()
 
 

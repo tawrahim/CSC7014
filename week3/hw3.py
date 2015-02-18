@@ -38,7 +38,9 @@ def drawBar(t, height):
     t.forward(height)
     t.left(90)
     t.end_fill()
-    t.forward(70)           
+    t.up()
+    t.forward(70)
+    t.down()           
 
 def draw_postal_code():
     # Ask the user for postal code input
