@@ -29,15 +29,21 @@ def findPalindrome():
         
 
 def pigLatin():
-    print("This program prompts for an English word and prints its Pig Latin equivalent.Please enter an English word to convert into Pig Latin or enter . to quit: mothermother converted into Pig Latin is othermay")
+    print("\n\n ********** Pig Latin Program **********")
+    print("This program prompts for an English word and prints its Pig Latin equivalent.")
+    
     while True:
         user_input = str(input("Please enter an English word to convert into Pig Latin or enter . to quit: "))
-        if not user_input:
+        
+        if user_input == ".":
             print("Thank you and have a great day!")
             break
+        
+        if not user_input:
+            continue
     
         english_vowels = "aieou"
-        first_letter = user_input[0]
+        first_letter = user_input[0].lower()
         
         if first_letter in english_vowels:
             print(user_input + " converted into Pig Latin is " + user_input + "yay")
