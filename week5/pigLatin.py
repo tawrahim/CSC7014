@@ -3,34 +3,15 @@
 # Practice of a computer programmer
 # Lab 5
 # This program does the following:
-#  (a) Checks if the backward of a given string is a palindrome
-#  (b) Converts a word to pig latin
+# If a word begins with a vowel, it appends "yay" to the end of the word.
+# If a word begins with a consonant, remove all the consonants from the beginning up to 
+# the first vowel and append them to the end of the word. Finally, append "ay" to the end of the word.
 # tabdulra@student.fitchburgstate.edu
 # known bugs: none
 
-import re
-
-def findPalindrome():
-    print("***** Check to see if a string is palindrome *****")
     
-    # while True:
-    user_input = str(input("Input a string: or enter return to quit: "))
-    if not user_input:
-        return
-    
-    stripedString = re.sub('[^A-Za-z0-9]+', '', user_input)
-    print("The original string is: {}".format(user_input))
-    print("The modified string is: {}".format(stripedString.lower()))
-    print("The reversal is: {}".format(stripedString[::-1].lower()))
-    
-    if stripedString.lower() == stripedString[::-1].lower():
-        print("String is palindrome")
-    else:
-        print("String is not palindrome")
-    
-
-def pigLatin():
-    print("\n\n ********** Pig Latin Program **********")
+def main():
+    print("********** Pig Latin Program **********")
     print("This program prompts for an English word and prints its Pig Latin equivalent.")
     
     while True:
@@ -56,10 +37,6 @@ def pigLatin():
                 else:
                     break
             print(user_input + " converted into Pig Latin is " + user_input[len(endString):] + endString + "ay")
-
-def main():
-    findPalindrome()
-    pigLatin()
 
 # Entry point of the program
 if __name__ == "__main__":
