@@ -10,6 +10,7 @@
 
 import re
 
+
 def findPalindrome():
     print("***** Check to see if a string is palindrome *****")
     
