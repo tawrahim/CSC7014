@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216632f6-486e-4319-88bb-75c5ad648944" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/p6.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tester.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab.py" afterPath="$PROJECT_DIR$/lab.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../week5/lab5.py" afterPath="$PROJECT_DIR$/../week5/lab5.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw.py" afterPath="$PROJECT_DIR$/hw.py" />
     </list>
     <ignored path="week7.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +41,8 @@
           <file leaf-file-name="hw.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hw.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.7612782" vertical-offset="3914" max-vertical-offset="4446">
-                  <caret line="229" column="41" selection-start-line="229" selection-start-column="41" selection-end-line="229" selection-end-column="41" />
+                <state vertical-scroll-proportion="0.6334587" vertical-offset="3758" max-vertical-offset="4290">
+                  <caret line="315" column="0" selection-start-line="315" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -436,7 +429,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16180556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3034826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3034826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -729,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7612782" vertical-offset="3914" max-vertical-offset="4446">
-          <caret line="229" column="41" selection-start-line="229" selection-start-column="41" selection-end-line="229" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.6334587" vertical-offset="3758" max-vertical-offset="4290">
+          <caret line="315" column="0" selection-start-line="315" selection-start-column="0" selection-end-line="315" selection-end-column="0" />
           <folding />
         </state>
       </provider>

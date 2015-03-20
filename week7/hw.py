@@ -319,18 +319,6 @@ def puzzle(word_list):
         for x in solution_10():
             print(x)
 
-    # Result checker
-    print("Problem 1: " + str(len(solution_1_array)) + "  *** 3 ***")
-    print("Problem 2: " + str(len(solution_2_array)) + "  *** 192 ***")
-    print("Problem 3: " + str(len(solution_3_array)) + "  *** 177 ***")
-    print("Problem 4: " + str(len(solution_4_array)) + "  *** 9 ***")
-    print("Problem 5: " + str(len(solution_5_array)) + "  *** 3 ***")
-    print("Problem 6: " + str(len(solution_6_array)) + "  *** 8 ***")
-    print("Problem 7: " + str(len(solution_7_array)) + "  *** 25 ***")
-    print("Problem 8: " + str(len(solution_8_array)) + "  *** N/A ***")
-    print("Problem 9: " + str(len(solution_9_array)) + "  *** 1 ***")
-    print("Problem 10: " + str(len(solution_10())) + "  *** 2 ***")
-
 # Entry point of the program
 if __name__ == "__main__":
     words = get_word_list()
