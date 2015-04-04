@@ -26,6 +26,8 @@ def anagram_test():
 
     if word1 == word2[::-1]:
         print(word1 + " and " + word2 + " are anagrams of each other")
+    else:
+        print(word1 + " and " + word2 + " are not anagrams of each other")
 
 # Entry point of the program
 if __name__ == "__main__":
